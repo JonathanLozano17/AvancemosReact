@@ -3,7 +3,7 @@ import React from "react";
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="min-h-screen w-full bg-gray-50 flex flex-col">
+    <div className="min-h-screen w-full bg-gray-100 flex flex-col">
       {/* Hero Section */}
       <header className=" p-4 shadow-lg w-full">
         <div className="mx-auto flex items-center justify-between w-full">
