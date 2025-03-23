@@ -4,6 +4,7 @@ import AcercaDe from "./Landing/AcercaDe";
 import LoanServices from "./Landing/LoanServices";
 import TestimonialsSlider from "./Landing/TestimonialSlider";
 import ContactUs from "./Landing/ContactUs";
+import { ContactForm } from "../components/ContactForm";
 
 const Prueba: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Prueba: React.FC = () => {
       <LoanServices />
       <TestimonialsSlider />
       <ContactUs />
+      <ContactForm />
     </>
   );
 };
